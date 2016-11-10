@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8F906281D9E4DBC00AA73C0 /* p2pcam.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8F906271D9E4DBC00AA73C0 /* p2pcam.h */; };
+		C8F9062A1D9E4DBC00AA73C0 /* p2pcam.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F906291D9E4DBC00AA73C0 /* p2pcam.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C8F906221D9E4DBC00AA73C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C8F906281D9E4DBC00AA73C0 /* p2pcam.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C8F906241D9E4DBC00AA73C0 /* libp2pcam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libp2pcam.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F906271D9E4DBC00AA73C0 /* p2pcam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p2pcam.h; sourceTree = "<group>"; };
+		C8F906291D9E4DBC00AA73C0 /* p2pcam.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = p2pcam.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8F906211D9E4DBC00AA73C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C8F9061B1D9E4DBC00AA73C0 = {
+			isa = PBXGroup;
+			children = (
+				C8F906261D9E4DBC00AA73C0 /* p2pcam */,
+				C8F906251D9E4DBC00AA73C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8F906251D9E4DBC00AA73C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8F906241D9E4DBC00AA73C0 /* libp2pcam.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8F906261D9E4DBC00AA73C0 /* p2pcam */ = {
+			isa = PBXGroup;
+			children = (
+				C8F906271D9E4DBC00AA73C0 /* p2pcam.h */,
+				C8F906291D9E4DBC00AA73C0 /* p2pcam.m */,
+			);
+			path = p2pcam;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8F906231D9E4DBC00AA73C0 /* p2pcam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8F9062D1D9E4DBC00AA73C0 /* Build configuration list for PBXNativeTarget "p2pcam" */;
+			buildPhases = (
+				C8F906201D9E4DBC00AA73C0 /* Sources */,
+				C8F906211D9E4DBC00AA73C0 /* Frameworks */,
+				C8F906221D9E4DBC00AA73C0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = p2pcam;
+			productName = p2pcam;
+			productReference = C8F906241D9E4DBC00AA73C0 /* libp2pcam.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8F9061C1D9E4DBC00AA73C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = gxl;
+				TargetAttributes = {
+					C8F906231D9E4DBC00AA73C0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C8F9061F1D9E4DBC00AA73C0 /* Build configuration list for PBXProject "p2pcam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C8F9061B1D9E4DBC00AA73C0;
+			productRefGroup = C8F906251D9E4DBC00AA73C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8F906231D9E4DBC00AA73C0 /* p2pcam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8F906201D9E4DBC00AA73C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F9062A1D9E4DBC00AA73C0 /* p2pcam.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C8F9062B1D9E4DBC00AA73C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C8F9062C1D9E4DBC00AA73C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8F9062E1D9E4DBC00AA73C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C8F9062F1D9E4DBC00AA73C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8F9061F1D9E4DBC00AA73C0 /* Build configuration list for PBXProject "p2pcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8F9062B1D9E4DBC00AA73C0 /* Debug */,
+				C8F9062C1D9E4DBC00AA73C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8F9062D1D9E4DBC00AA73C0 /* Build configuration list for PBXNativeTarget "p2pcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8F9062E1D9E4DBC00AA73C0 /* Debug */,
+				C8F9062F1D9E4DBC00AA73C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8F9061C1D9E4DBC00AA73C0 /* Project object */;
+}
